@@ -1,0 +1,185 @@
+.header{
+	      width: 100%;
+    position: absolute;
+    left: 0px;
+    font-size: 20px;
+   
+}
+body{
+	font-family: Verdana,sans-serif;
+	background: rgba(203, 225, 225, 0.25);
+}
+
+.header > .navbar-default{
+	          position: absolute;
+    width: 61%;
+    top: 167px;
+    left: 19%;
+    background: rgb(203, 225, 225);
+    border: 2px solid rgb(111, 119, 119);
+}
+
+.wrapper{
+	margin-top: 230px;
+    margin-left: -25%;
+    width: 152%;
+}
+
+.addver{
+	border: 1px solid rgb(156, 177, 177);
+    padding: 10px;
+    background: rgba(203, 225, 225, 0.35);
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-ui{
+	    background: rgb(203, 225, 225);
+    padding: 41px 20px;
+    border:1px solid rgb(156, 177, 177);
+    color: #666;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #407A77;
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: rgb(156, 177, 177);
+}
+.notice{
+	padding: 4px;
+    min-height: 200px;
+}
+.span-heading{
+	color: rgb(0, 0, 255) !important;
+    font-weight: bold;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 14px;
+    font-size: 23px;
+}
+.notice a,.notice span{
+	color: #2e7057;
+}
+
+.diff-style{
+	font-family: 'Comic Sans MS', sans-serif;
+}
+
+.form-heading{
+	font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2.heading{
+	font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e7e7e7;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    padding: 0px 0px 11px;
+    color: #185fa1;
+}
+h2.heading > i{
+	color: #bf5a14;
+}
+
+.image-width{
+	    width: 288px;
+    height: 300px;
+    border: 1px solid #147A98;
+}
+.text-style{
+	color: #555;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    font-weight: initial;
+    padding: 0;
+}
+.text-style  h2{
+	font-size: 30px;
+    font-weight: bold;
+    color: #2ac5f3;
+}
+
+.content-ui span{
+	float: left;
+	font-size: 22px;
+    font-family: initial;
+    color: #2ac5f3;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.content-ui div:nth-child(2){
+	float: left;
+}
+.content-ui div:nth-child(3){
+	float: right;
+	width: 69%;
+}
+.content-ui p{
+	margin: 0;
+}
+
+.recuti-ui h2{
+	    font-weight: 600;
+    color: rgba(70, 68, 68, 0.83);
+    font-family: cursive;
+}
+.table{
+	font-size: 16px;
+}
+
+.thead-default th{
+	text-align: center;
+	font-size: 20px;
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+	    background-color: rgb(255, 255, 255);
+}
+.table-striped>tbody>tr:nth-of-type(even){
+	    background-color:rgba(203, 225, 225, 0.63);
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #868585;
+}
+
+.payment{
+	color: #2e7057;
+    background-color: #d1f787;
+}
+.payment a{
+	text-decoration: none;
+}
+.form-control{
+	padding: 20px 10px;
+}
+.contect-form-ui{
+	    width: 80%;
+    margin: auto;
+    margin-top: 53px;
+    border: 2px solid #ABBFBF;
+    padding: 43px 38px;
+    line-height: 3em;
+    background: #CBE1E1;
+}
+.cp-name{
+	position: absolute;
+    top: 61px;
+    left: 42%;
+    font-size: 70px;
+    color: #48A0C3;
+    font-family: cursive;
+    font-weight: bold;
+}
