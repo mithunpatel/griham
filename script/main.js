@@ -3,22 +3,22 @@ function startProcess(){
 	console.log(hash);
 	switch(hash){
 		 case "home":
-		 	loadPage("home");
+		 	loadPage("home",hash);
 		 	break;
 		 case "why-join":
-		 	loadPage("why_join");
+		 	loadPage("why_join",hash);
 		 	break;
 		 case "recruitment":
-		 	loadPage("recruitment");
+		 	loadPage("recruitment",hash);
 		 	break;
 		 case "apply-now":
-		 	loadPage("apply");
+		 	loadPage("apply",hash);
 		 	break;
 		 case "contact-us":
-		 	loadPage("contact");
+		 	loadPage("contact",hash);
 		 	break;
 		 case "agreements":
-		 	loadPage("agreements");
+		 	loadPage("agreements",hash);
 		 	break;
 		 default:
 		 	window.location.hash = "#/home";
@@ -26,7 +26,19 @@ function startProcess(){
 	}
 }
 
-function loadPage(filename) {
+function loadPage(filename,value) {
+	var menu_link = $(".menu-link");
+	
+	for (var i = 0; i < menu_link.length; i++) {
+		var that = $(menu_link[i]);
+		if(that.attr("href").split("/")[1] == value){
+			that.parent().addClass("active");
+		}else{
+			that.parent().removeClass("active");
+		}
+		
+	};;
+
 	$("#content").load("view/"+filename+".html");
 }
 
